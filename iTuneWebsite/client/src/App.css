@@ -1,0 +1,53 @@
+.App {
+  margin: 0;
+  padding: 5;
+}
+
+.wrap-Brand {
+  display: flex;
+}
+
+.logoName {
+  padding-left: 15px;
+}
+
+.welcome-text {
+  text-align: center;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.home-wrap {
+  margin: 25px 0;
+}
+
+.img {
+  border: 4px solid black;
+}
+
+.link {
+  font-weight: bold;
+  border: 1px solid whitesmoke;
+  margin: 0px 5px;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-style: normal;
+}
+
+.link:hover {
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.link:visited {
+  background: rgba(0, 0, 0, 0.2);
+}
+.link:active {
+  background: rgba(0, 0, 0, 0.2);
+}

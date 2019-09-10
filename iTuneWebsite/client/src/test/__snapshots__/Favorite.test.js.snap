@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="favorite"
+  >
+    <table
+      className="table table-bordered table-dark"
+    >
+      <thead>
+        <tr>
+          <th>
+            #Favorite List
+          </th>
+          <th>
+            <i
+              aria-hidden="true"
+              class="fa fa-music"
+            />
+          </th>
+        </tr>
+      </thead>
+    </table>
+    <table
+      className="table table-bordered"
+    >
+      <tbody>
+        <tr
+          className="row-container"
+        />
+      </tbody>
+    </table>
+  </div>
+  <h2
+    className="heading"
+  >
+    Search For Music Below
+  </h2>
+  <label
+    className="search-label"
+    htmlFor="search-input"
+  >
+    <input
+      id="search-input"
+      name="query"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <i
+      aria-hidden="true"
+      className="fa fa-search search-icon"
+    />
+  </label>
+  
+  <img
+    alt="loader"
+    className="search-loading hide"
+    src="loader.gif"
+  />
+  <div
+    className="nav-link-container"
+  >
+    <a
+      className="nav-link hide 
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      Prev
+    </a>
+    <a
+      className="nav-link hide
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      Next
+    </a>
+  </div>
+  <div
+    className="nav-link-container"
+  >
+    <a
+      className="nav-link hide 
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      Prev
+    </a>
+    <a
+      className="nav-link hide
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      Next
+    </a>
+  </div>
+</div>
+`;

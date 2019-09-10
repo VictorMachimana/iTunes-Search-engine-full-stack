@@ -1,0 +1,163 @@
+.container {
+  margin: 36px auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  padding: 16px 0;
+  color: #444;
+  text-align: center;
+}
+
+.search-label {
+  position: relative;
+  width: 50%;
+}
+
+.container input {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  font-style: italic;
+  color: #444;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 26px;
+  font-size: 34px;
+  color: #555;
+  right: 18px;
+}
+
+.results-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+/* .box {
+  display: flex;
+  margin: 15px;
+  flex-basis: 20%;
+  padding: 4px;
+  border: 1px solid #898989;
+  margin: 16px;
+  text-align: center;
+  min-width: 200px;
+  box-shadow: 2px 2px 2px #898989;
+} */
+
+.result-item {
+  display: block;
+  position: relative;
+  padding: 4px;
+  border: 1px solid #898989;
+  margin: 26px;
+  text-align: center;
+  min-width: 210px;
+  box-shadow: 2px 2px 2px #898989;
+}
+
+.image-username {
+  color: #38a007;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+}
+
+/* .image-trackName {
+  color: #38a007;
+  font-size: 18px;
+  padding: 15px 10px;
+} */
+
+.image-wraper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.image {
+  height: 95%;
+  width: 200px;
+}
+
+/* loader */
+.search-loading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* show and hide */
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+/* Prev and Next */
+.nav-link-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #898989;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.greyed-out {
+  background: #f1f1f1;
+  opacity: 0.5;
+}
+
+.btn {
+  margin: 18px 5px 5px 5px;
+}
+
+/* favorite section */
+
+.row-container {
+  text-align: left;
+}
+
+.favourite-image {
+  height: 40px;
+  width: 40px;
+}
+
+.favorite {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  height: 250px;
+  width: 55%;
+  overflow: hidden;
+  border: 3px solid rgb(168, 168, 168);
+  overflow-y: scroll;
+}
+
+.favorite-username {
+  overflow-x: hidden;
+}
