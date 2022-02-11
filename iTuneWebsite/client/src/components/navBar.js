@@ -34,9 +34,6 @@ function NavBar() {
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
-      <div className="welcome-text">
-        <h1>Welcome To iTunes</h1>
-      </div>
     </header>
   );
 }
