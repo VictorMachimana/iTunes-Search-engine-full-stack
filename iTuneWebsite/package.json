@@ -14,9 +14,9 @@
   "author": "victor machimana",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "concurrently": "^4.1.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "helmet": "^3.20.0",
     "node-fetch": "^2.6.0"
   },
